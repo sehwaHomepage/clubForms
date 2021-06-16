@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>세화온라인예술제 - 양식제출</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+   <!-- Favicons -->
+  <link href="assets/img/sehwa_png.png" rel="icon">
+  <link href="assets/img/sehwa_icon.ico" rel="icon">
+  <link href="assets/img/sehwa_icon.ico" rel="icon">
+  <link href="assets/img/sehwa_icon.ico" rel="shortcut icon">
+  <link href="assets/img/sehwa_icon.ico" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: OnePage - v4.0.1
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href=".">Sehwa Online</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href=".">Home</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+        <section id="portfolio" class="portfolio">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-title">
+              <h2>온라인예술제를 위한 동아리별 forms 업로드</h2>
+              <h5>① 제목을 자동으로 생성 후, ② 제목을 복제하여, ③ forms 완성 후, ④ <b>공동작업링크</b>를 제출해주세요.</h5>
+              <br>
+              <br>
+             <hr />
+            </div>
+    
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-lg-12 justify-content-center portfolio-item filter-grade1">
+              <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <td scope="row"><h5>동아리 명</h5></td>
+                    <td>
+                      <select class="select-long" id="clubName">
+                        <option value="DBPIA 파헤치기반">DBPIA 파헤치기반</option>
+                        <option value="건축반">건축반</option>
+                        <option value="공학연합반">공학연합반</option>
+                        <option value="과학실험제작반">과학실험제작반</option>
+                        <option value="과학요리반">과학요리반</option>
+                        <option value="과학탐구발표반">과학탐구발표반</option>
+                        <option value="교지편집반">교지편집반</option>
+                        <option value="농구반">농구반</option>
+                        <option value="도서반">도서반</option>
+                        <option value="모의유엔반">모의유엔반</option>
+                        <option value="미술반">미술반</option>
+                        <option value="소프트웨어개발반">소프트웨어개발반</option>
+                        <option value="수학문제풀이연구반">수학문제풀이연구반</option>
+                        <option value="수학산책반">수학산책반</option>
+                        <option value="시사교양 애그리게이션반">시사교양 애그리게이션반</option>
+                        <option value="시사토론반">시사토론반</option>
+                        <option value="역사외교반">역사외교반</option>
+                        <option value="영자신문반">영자신문반</option>
+                        <option value="오케스트라반">오케스트라반</option>
+                        <option value="지구과학탐구반">지구과학탐구반</option>
+                        <option value="창업체험반">창업체험반</option>
+                        <option value="축구반">축구반</option>
+                        <option value="코딩반">코딩반</option>
+                        <option value="해부반">해부반</option>
+                        <option value="화학실험연구반반">화학실험연구반</option>                      
+                    </select>
+                    </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="2" align="center"><textarea id="output" style="width:100%; height:100px;"></textarea>
+                      <div class="row">
+                      <div class="col-xs-3 justify-content-center">
+                      <button onclick="func('clubName', 'output')">① 제목 생성하기</button>
+                      <button onclick="copy_to_clipboard('output')">② 제목 복사하기</button>
+                      <a href="https://forms.office.com/Pages/ShareFormPage.aspx?id=3MpC6IoW506XpebWof3rtU7EpHhjvfRKnU7Z5rlwyfxUMVNVUkpBNlZLRlJDRFlKVUQ5Q0s2RERHNC4u&sharetoken=B10S0TXK1Mdb66si0M6v" target="_blank"><button >③ forms로 이동</button></a>
+                      <a href="https://hssehwa-my.sharepoint.com/:x:/g/personal/logy6903_sehwa_hs_kr/EQCvfb217utIghm8ftd4xM4BYGBFwzK7M_CpF504n815LQ?e=Ag7hiL" target="_blank"><button >④ 공동작업링크제출</button></a>
+                    </div>
+                    </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            </div>
+          </div>
+        </section><!-- End Portfolio Section -->
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Sehwa HighSchool</h3>
+            <p>
+              서울특별시 서초구<br>
+              신반포로 56-7 (반포동)<br><br>
+              <strong>교무실:</strong>TEL 02-594-8721  FAX 02-599-3101<br>
+              <strong>행정실:</strong>TEL 02-594-4886  FAX 02-595-6586<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href=".">Home</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>OnePage</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+          Designed by BootstrapMade / Editing by Yunhee
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+</body>
+
+</html>
